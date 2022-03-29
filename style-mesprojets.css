@@ -1,0 +1,190 @@
+
+    *{
+        list-style: none;
+        color: rgb(141, 129, 129);
+        font-family: 'Mukta', sans-serif;
+        
+        margin-left: none; 
+         margin-right: none;
+         position: none;
+        text-decoration: none;
+        margin :0;
+        box-sizing: content-box;
+        padding: 0
+        }
+        
+        html {
+            margin:0;
+            padding:0;
+            }
+        
+        body{
+        background: #0B122C;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows:0.1fr 1fr 0.5fr 1fr;
+        grid-template-areas:
+        "navebar"
+        "image"
+        "name"
+        "textt"
+       
+        
+        
+        
+        
+        ;
+        
+        
+        }
+        
+        .textt{
+        
+        height: 200px;
+        border: solid rgb(146, 113, 113) 1 px;
+        grid-area: textt;
+text-align: center;
+        }
+        
+        .info{
+         
+            
+            
+            grid-area:info ;
+               display: block;
+               
+                }
+            
+
+        .navebar{
+            z-index: 2;
+            position: sticky;
+            top: 1px;
+            z-index: 100;
+            background: rgb(22, 41, 97);
+        height: 50px;
+        grid-area:navebar ;
+        
+        }
+        
+        
+        .frontend{
+           
+            padding-top: 0px;
+            border: solid rgb(146, 113, 113) 1 px;
+            grid-area: frontend;
+            justify-content: center;
+
+        }
+        
+        
+       
+        
+        
+        
+       
+        
+        
+        li{
+            float:left;
+            padding-left: 20px;
+            border-radius: 30px;
+            border: rgb(2, 4, 10) 2px;
+        }
+        
+        
+        .bar{
+            
+            width: 30em;
+            height: 1em;
+            border-radius: 0.5em;
+            position: relative;
+            background: #bb9f9f;
+            box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+            
+          }
+        
+          .backendd{
+              
+            
+           
+            padding-top: 0px;
+            
+        
+            border: solid rgb(146, 113, 113) 1 px;
+            grid-area:backendd ;
+            }
+        
+        .webdesign{
+        
+            
+            padding-top: 0px;
+        
+          
+        
+        border: solid rgb(146, 113, 113) 1 px;
+        grid-area:webdesign ;
+        
+        }
+        
+        .teletravail {
+        
+            
+            padding-top: 0px;
+            
+            
+            border: solid rgb(146, 113, 113) 1 px;
+            grid-area:teletravail ;
+        
+        
+        
+        }
+          
+        .mes-projects {
+        
+            
+           
+            padding-top: 0px;
+             
+            
+            border: solid rgb(146, 113, 113) 1 px;
+            grid-area:mesprojets ;
+        
+        
+        
+        }
+        
+        .contact{
+            
+            padding-top: 0px;
+            
+            border: solid rgb(146, 113, 113) 1 px;
+            grid-area:contact ;
+        }
+        
+        .image{
+        background: url(./pexels-markus-spiske-2004161.jpg) 80%/cover;
+        height: 500px;
+        width: 100%;
+        grid-area:image;
+        
+        }
+        
+        .name h1{
+            
+            text-align:center;
+        }
+
+.hov:hover{
+    
+    color: yellow;
+    transform: scaleX(1.01);
+    
+    }
+
+
+
+     
+
+

@@ -1,0 +1,553 @@
+
+
+    
+
+
+
+*{
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Mukta', sans-serif;
+  position: static;
+  text-decoration: none;
+  
+  margin :0;
+  box-sizing: content-box;
+  padding: 0;
+  font-family: 'VT323', monospace;
+  
+
+    }
+    
+.buttoncv p a{
+color: aliceblue;
+border: 1px solid rgb(20, 19, 19);
+border-radius:10px;
+background: black;
+}
+.buttoncv p a:hover{
+    transform:scale(1.01);
+    background:#1eb400;
+    border: 1px solid #1eb400;
+    color: black;
+}
+
+.divstyle:hover{
+        
+    background :#1eb40041;
+}
+
+
+
+
+    html {
+        
+        
+            margin:0;
+            padding:0;
+            background: url(./pexels-mitchell-luo-3694708.jpg) no-repeat center fixed; 
+            -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+            background-size: cover; /* version standardisée */
+         
+
+
+
+        }
+       /* background: url(./pexels-mitchell-luo-3694708.jpg) 100%/cover ;
+        background-position: center center;
+        background-attachment: fixed;*/
+    body{
+       
+    height: auto;
+    align-items: center;
+    
+    }
+    .divstyle{
+        background:rgb(255, 255,255,0.1);
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        backdrop-filter: blur(2px);
+        border-top: 1px solid rgb(125, 125, 125);
+        border-left: 1px solid rgb(125, 125, 125);
+        padding:15px 15px 15px 15px;
+    }
+    .divstyle:hover{
+        transform: scale(1.005);
+
+
+
+
+    }
+    .textt{
+    
+        width: auto;
+   text-align: left;
+    border: solid rgb(146, 113, 113) 1 px;
+    height: auto;
+    }
+    .name h1,h2{
+        color: rgb(60, 255, 0);
+text-align:center;
+
+
+    }
+    .name{
+        text-align:center;
+        width: 100%px;
+        border: #000000 solid 5px;
+        background:black;
+        
+    }
+    .navebar{
+       
+        position: sticky;
+        top: 0.01px;
+        z-index: 100;
+        
+        background: rgb(70, 70, 71);
+        backdrop-filter: blur(2px);
+    border-top: 1px solid rgb(125, 125, 125);
+    border-left: 1px solid rgb(125, 125, 125);
+    height: 50px;
+    width: 100%;
+    
+    }
+    .navebar li a {
+        color: rgb(60, 255, 0);
+     }
+    .frontend{
+       
+        text-align:left;
+        width: auto;
+        
+    }
+    .frontend h1{
+       
+        text-align: center
+        
+        
+    }
+    
+    
+   
+    
+    
+    
+    .info{
+        
+        
+   
+        width: auto;
+       
+       
+        }
+    .info h1 {
+        
+       
+            text-align: center
+            
+            
+        
+    }
+    
+    
+    li{
+        float:left;
+        padding-left: 20px;
+        border-radius: 30px;
+        border: rgb(2, 4, 10) 2px;
+    }
+    
+    
+    .bar{
+       
+        width: 30em;
+        height: 0.5em;
+        border-radius: 0.5em;
+        position: relative;
+        background: #1eb400;
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+      }
+
+      .progress{
+        width: 30em;
+        height: 0.5em;
+        border-radius: 0.5em;
+        position: relative;
+        background: #000000;
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+
+
+      }
+    
+      .backendd{
+          
+       
+        
+       
+   
+        width: auto;
+    
+    border: solid rgb(146, 113, 113) 1 px;
+   
+        }
+        .backendd h1{
+            text-align: center;
+        }
+    
+    .webdesign{
+    
+        
+    
+        
+       
+        width: auto;
+    
+    border: solid rgb(146, 113, 113) 1px;
+    
+    
+    }
+    .webdesign h1{
+        text-align: center;
+    }
+    
+    .teletravail {
+        
+       
+        text-align: center;
+            
+            
+        width: auto;
+        
+        border: solid rgb(146, 113, 113) 1 px;
+       
+    
+    
+    
+    }
+     
+      
+    .mes-projects {
+    
+        padding-top: 30px;
+        
+            
+            
+        width: auto;
+        
+        border: solid rgb(146, 113, 113) 1 px;
+     
+        text-align: center;
+    
+    
+    }
+   
+    
+    .contact{
+        
+        padding-top: 30px;
+        text-align: center;
+            
+            width: 100%;
+        
+        border: solid rgb(146, 113, 113) 1 px;
+        
+    }
+    
+
+
+ 
+    
+    
+    
+    
+    
+    
+    li:hover {
+    
+   color: rgb(115, 255, 0);
+    transform: scale(1.1);
+    }
+    
+    
+    .hov:hover{
+    
+    color: rgb(60, 255, 0);
+    transform: scale(1.01);
+    
+    }
+   
+    
+@media (min-width: 920px) {
+
+
+    *{
+        list-style: none;
+        color: rgb(0, 0, 0);
+        font-family: 'Mukta', sans-serif;
+        text-align: left;
+        margin-left: none; 
+         margin-right: none;
+         position: none;
+         font-family: 'VT323', monospace;
+        }
+        
+        html {
+            margin:0;
+            padding:0;
+            background: url(./pexels-mitchell-luo-3694708.jpg) no-repeat center fixed; 
+            -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+            background-size: cover; /* version standardisée */
+
+
+
+            }
+        
+        body{
+           
+         
+        height: auto;
+        display: grid;
+        
+        grid-template-columns: 0.2fr 1fr 0.5fr 1fr 0.2fr;
+        grid-template-rows:0.2fr  0.2fr 0.2fr 1fr 1fr 1fr ;
+        grid-template-areas:
+        "navebar navebar navebar navebar navebar"
+        "vide4 vide4 name vide5 vide5"
+        " vide6 vide6 vide6 vide6 vide6"
+        "vide2 textt textt  textt  vide3"
+        "vide2 frontend vide backendd vide3"
+        "vide2 webdesign vide teletravail vide3"
+        "vide2 mesprojets vide contact vide3"
+        
+        
+        
+        
+        ;
+        
+        
+        }
+        
+        .textt{
+            
+        height: auto;
+        border: solid rgb(146, 113, 113) 1 px;
+        grid-area: textt;
+text-align: left;
+margin-left: auto;
+margin-right :auto;
+
+        }
+        
+        .info{
+         
+            
+            
+            grid-area:info ;
+               
+               
+                }
+            
+
+        .navebar{
+            z-index: 2;
+            position: sticky;
+            top: 1px;
+            z-index: 100;
+            background: rgb(70, 70, 71);
+            backdrop-filter: blur(2px);
+        border-top: 1px solid rgb(125, 125, 125);
+        border-left: 1px solid rgb(125, 125, 125);
+        height: 100%;
+        grid-area: navebar ;
+        
+        }
+        .navebar li a {
+           color: rgb(60, 255, 0);
+        }
+       
+        
+        .frontend{
+           width: auto;
+            padding-top: 0px;
+            border: solid rgb(146, 113, 113) 1 px;
+            grid-area: frontend;
+            justify-content: center;
+            height: auto;
+            
+            
+        }
+        .frontend h1{
+            text-align:left;
+        }
+    
+       
+        
+        
+        
+       
+        
+        
+        li{
+            float:left;
+            padding-left: 20px;
+            border-radius: 30px;
+            border: rgb(2, 4, 10) 2px;
+        }
+        
+        
+        .bar{
+       
+            width: 30em;
+            height: 0.5em;
+            border-radius: 0.5em;
+            position: relative;
+            background: #1eb400;
+            box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+          }
+    
+          .progress{
+            width: 30em;
+            height: 0.5em;
+            border-radius: 0.5em;
+            position: relative;
+            background: #000000;
+            box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+    
+    
+          }
+        
+          .backendd{
+            
+            height: auto;
+            width: auto;
+            padding-top: 0px;
+            
+        
+            border: solid rgb(146, 113, 113) 1 px;
+            grid-area:backendd ;
+            }
+        .backendd h1{
+            text-align:left;
+           color :#ffffff ;
+        }
+        .webdesign{
+            height: auto;
+            width: auto;
+            padding-top: 0px;
+            
+            
+        
+        border: solid rgb(146, 113, 113) 1 px;
+        grid-area:webdesign ;
+        
+        }
+        .webdesign h1{
+            text-align:left;
+        }
+        .teletravail {
+           
+            height: auto;
+            padding-top: 0px;
+            width: auto;
+            
+            border: solid rgb(146, 113, 113) 1 px;
+            grid-area:teletravail ;
+        
+        
+        
+        }
+          .teletravail h1{
+            text-align:left;
+            color :#ffffff ;
+          }
+        .mes-projects {
+            
+            width: auto;
+            height: auto;
+           
+            padding-top: 0px;
+             
+            
+            border: solid rgb(146, 113, 113) 1 px;
+            grid-area:mesprojets ;
+        
+        
+        
+        }
+        .mesprojets h1{
+            text-align:left;
+        }
+
+        .contact{
+            
+            height: auto;
+            padding-top: 0px;
+            width: auto;
+            border: solid rgb(146, 113, 113) 1 px;
+            grid-area:contact ;
+        }
+        .contact h1{
+            text-align:left;
+            color :#ffffff ;
+        }
+        
+      
+        
+        .name{
+            text-align:center;
+            width: 300px;
+            border: #000000 solid 5px;
+            background:black;
+            
+        }
+        .divstyle:hover{
+        
+            background :#1eb40041;
+        }
+        
+.hov:hover{
+    
+    color: #1eb400;
+    transform: scaleX(1.01);
+    
+    }
+
+.vide{
+    grid-area: vide;
+}
+.vide2{
+    grid-area: vide2;
+}
+.vide3{
+    grid-area: vide3;
+}
+.vide4{
+    grid-area: vide4;
+    background:black;
+    height: 100%;
+}
+.vide5{
+    grid-area: vide5;
+    background:black;
+    height: 100%;
+    
+}
+.vide6{
+    grid-area: vide6;
+    height: 100px;
+   
+}
+}
+
+@media (max-width: 1040px) {
+
+    .name h1,h2{
+        font-size: 150%;
+        
+    }
+    
+    
+    }
+    
